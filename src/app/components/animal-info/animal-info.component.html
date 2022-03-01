@@ -1,0 +1,24 @@
+<button class="button red button-return" routerLink="/">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m7 7l-7-7l7-7"/></svg>
+</button>
+<div class="container">
+    <div class="animal-info">
+        <div class="right">
+            <img src="{{ animal[index].image_link }}" alt="pic {{ animal[index].name }}">
+        </div>
+        <div class="left">
+            <div class="header">
+                <h3>{{ animal[index].name }} - {{ animal[index].latin_name }} </h3>
+                <h4 class="animation a2">{{animal[index].geo_range}}</h4>
+            </div>
+            <div class="text-content">
+                <p>Animal Type: <span>{{animal[index].animal_type}}</span></p>
+                <p>Animal Time: <span>{{animal[index].active_time}}</span></p>
+                <p>Diet: <span>{{animal[index].diet}}</span></p>
+                <p>Habitat: <span>{{animal[index].habitat}}</span></p>
+                <p>Lifespan: <span>{{animal[index].lifespan}}</span></p>
+                <p>Weight: <span>{{animal[index].weight_min}} - {{animal[index].weight_max}}</span></p>
+                <p>Length: <span>{{animal[index].length_min}} - {{animal[index].length_max}}</span></p>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,20 @@
+<button class="button red button-return" routerLink="/">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m7 7l-7-7l7-7"/></svg>
+</button>
+<div class="container-mid">
+    <div class="container ">
+        <div class="header">
+            <h3>Create Animal</h3>
+            <h4>Add information to register a new animal</h4>
+        </div>
+        <form class="form" formControl="profileForm">
+            <input type="text" id="name" formControlName="name" class="form-field " placeholder="Name">
+            <input type="text" id="geo" class="form-field " placeholder="Geo Localization">
+            <input type="text" id="type" class="form-field " placeholder="Animal Type">
+            <input type="text" id="time" class="form-field " placeholder="Animal Time">
+            <input type="text" id="habitat" class="form-field " placeholder="Habitat">
+            <input type="link" id="image" class="form-field " placeholder="Image URL">
+            <button class="button green" (click)="save()">Create</button>
+        </form>
+    </div>
+</div>
