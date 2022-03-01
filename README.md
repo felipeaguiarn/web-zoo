@@ -15,3 +15,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ##Run 
 Run `ng start`. Navigate to `http://localhost:4200/`. 
 
+![Image of WebPage-1](https://raw.githubusercontent.com/felipeaguiarn/web-zoo/main/src/assets/print1.png)
+![Image of WebPage-2](https://raw.githubusercontent.com/felipeaguiarn/web-zoo/main/src/assets/print2.png)
+![Image of WebPage-3](https://raw.githubusercontent.com/felipeaguiarn/web-zoo/main/src/assets/print3.png)
